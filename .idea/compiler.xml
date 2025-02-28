@@ -16,6 +16,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="feignclient-service" />
+        <module name="feign" />
         <module name="demo-service" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo-service" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="feignclient-service" options="-parameters" />
     </option>
   </component>
